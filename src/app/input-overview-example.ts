@@ -9,7 +9,9 @@ import { Component } from "@angular/core";
   templateUrl: "input-overview-example.html"
 })
 export class InputOverviewExample {
+
   list = ([] = [{ value :"Prashant", type: "text" }, { type: "radio",value :"Prashant" }, { type: "checkbox",value :"Prashant"}]);
+  
 }
 
 /**  Copyright 2019 Google LLC. All Rights Reserved.
